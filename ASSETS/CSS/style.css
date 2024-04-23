@@ -289,3 +289,15 @@ p {
     width: 20px;
 }
 
+@media (max-width: 850px) {
+    .interresses ul {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    
+    .interresses ul {
+        grid-template-columns: repeat(2,1fr);
+    }
+    
