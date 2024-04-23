@@ -289,27 +289,3 @@ p {
     width: 20px;
 }
 
-@media (max-width: 850px) {
-    .container {
-        margin: 10px;
-        grid-template-columns: repeat(1,1fr);
-    }
-    .interresses ul {
-        grid-template-columns: repeat(2,1fr);
-    }
-}
-
-@media (max-width: 600px) {
-    .sobre .job {
-        flex-direction: column;
-    }
-    .sobre .job .ano_lugar {
-        margin-bottom: 5px;
-    }
-    .interresses ul {
-        grid-template-columns: repeat(2,1fr);
-    }
-    .habil .job {
-        grid-template-columns: repeat(1,1fr);
-    }
-}
